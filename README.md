@@ -11,10 +11,10 @@ I am an undergraduate student double majoring in **Molecular Engineering** and *
 - **Status:** Currently transitioning from wet-lab foundations to full-stack biological data analysis.
 
 ### 📚 The "Footage" of My Journey
-I treat my GitHub as a living archive of my interdisciplinary studies. You can find my progress in:
-- **[Theoretical Roadmap]:** My self-directed curriculum covering Linear Algebra, Statistical Mechanics, and Electromagnetism.
-- **[Bio-Simulations]:** Implementing biological models (enzyme kinetics, population dynamics) in Python.
-- **[Data Pipelines]:** SQL and Python workflows for processing large-scale biological datasets.
+I maintain a transparent record of my growth, separating foundational theory from formal research applications.
+
+* **[Computational-Biophysics-Roadmap](https://github.com/HeechanKim-Lab/Computational-Biophysics-Roadmap)**: My interdisciplinary "sketchbook." It contains implementations of concepts from Linear Algebra, Differential Equations, and Statistical Mechanics as applied to molecular systems.
+* **[Plant-Epigenomics-Lab-Log](https://github.com/HeechanKim-Lab/Plant-Epigenomics-Lab-Log)**: Formal documentation of my work at the Plant Immunity & Epigenetics Laboratory. This includes data processing pipelines and computational outcomes derived from real-world biological datasets.
 
 ### 🛠 Tech Stack & Skills
 - **Languages:** Python (Primary), C++, SQL, C
