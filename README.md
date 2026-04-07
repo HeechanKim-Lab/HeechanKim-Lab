@@ -19,7 +19,7 @@ I maintain a transparent record of my growth, separating foundational theory fro
 ### 🛠 Tech Stack & Skills
 - **Languages:** Python (Primary), C++, SQL, C
 - **Scientific Computing:** NumPy, SciPy, SymPy, Matplotlib
-- **Tools:** Logic Pro (Signal Processing/Acoustics), Linux/Unix Shell, Git/GitHub
+- **Tools:** Linux/Unix Shell, Git/GitHub
 - **Fields:** Molecular Modeling, Computer Architecture, Network Management
 
 ---
