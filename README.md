@@ -1,7 +1,7 @@
 # Heechan Kim
 **Undergraduate Researcher | Molecular Engineering & Computer Science, Dong-A University**
 
-Undergraduate researcher specializing in computational biology, high-throughput sequencing pipelines, and molecular biology. Experienced in designing reproducible bioinformatics workflows for transcriptomic and amplicon metagenomic systems, supported by rigorous hands-on wet-lab assay design.
+Undergraduate researcher specializing in computational biology, statistical genomics, and deep learning for robust inference. Experienced in designing reproducible bioinformatics pipelines for transcriptomic and metagenomic systems, developing backpropagation-free test-time adaptation architectures, and conducting high-throughput molecular bench assays.
 
 * **Email:** 2218160@donga.ac.kr
 * **Location:** Busan, South Korea
@@ -28,6 +28,14 @@ Undergraduate researcher specializing in computational biology, high-throughput 
 * **Differential Abundance & Functional Metagenomics:** Modeled continuous effect sizes and well-calibrated FDR thresholds using LinDA to decouple shared soil generalists from lineage-specific private consortia. Reconstructed MetaCyc metabolic pathway potentials using PICRUSt2 (EPA-ng, GAPPA, castor, MinPath) and ggpicrust2.
 * **Stack:** QIIME 2, R (phyloseq, LinDA, ggpicrust2, vegan), Python, DADA2, FastTree, Cutadapt, PICRUSt2.
 
+### [stochastic-film-tta](https://github.com/HeechanKim-Lab/stochastic-film-tta)
+*Amortized stochastic feature-wise linear modulation for continual test-time adaptation and out-of-distribution robustness.*
+
+* **Theoretical Formulation:** Implemented an amortized feedforward adaptation layer mounted onto the penultimate features of a frozen spectral-normalized backbone, eliminating test-time gradient backpropagation, covariance explosion, and intermediate Jensen expectation distortion.
+* **Uncertainty & Variance Modeling:** Engineered a distance-aware variance kernel that maps Mahalanobis distances to cached in-distribution prototypes into stochastic affine modulation parameters ($\gamma, \beta$), ensuring provable variance expansion under out-of-distribution shifts.
+* **Streaming Benchmark Evaluation:** Evaluated on continuous streaming CIFAR-10-C corruptions (15 noise types at severity 5), achieving 15.2% Top-1 error and 0.089 Expected Calibration Error (ECE) with constant memory ($1.1\times$) and zero parameter collapse across extended steps ($10^5$).
+* **Stack:** Python, PyTorch, NumPy, SciPy, YAML.
+
 ### [plant-epigenomics-wetlab](https://github.com/HeechanKim-Lab/plant-epigenomics-wetlab)
 *Experimental protocols, quality assurance logs, and molecular assay optimization records.*
 
@@ -40,6 +48,7 @@ Undergraduate researcher specializing in computational biology, high-throughput 
 
 ## Technical Proficiencies
 
+* **Machine Learning & Deep Learning:** Test-Time Adaptation (TTA), Continual Learning, Out-of-Distribution (OOD) Robustness, Uncertainty Estimation & Calibration (ECE), Variational Inference, PyTorch
 * **Computational Biology:** Bulk RNA-Seq, 16S/ITS Amplicon Sequencing, Functional Metagenome Inference (PICRUSt2), Differential Expression (edgeR), Differential Abundance Testing (LinDA), Rarefaction & Ordination (PCoA, NMDS)
 * **Bioinformatics Software:** QIIME 2, DADA2, HISAT2, StringTie, samtools, FastTree, MAFFT, Cutadapt
 * **Languages & Systems:** Python, R, C/C++, Bash/Unix Shell, Git, Conda, Linux, macOS (Rosetta 2 emulation)
