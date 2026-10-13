@@ -19,6 +19,7 @@ Undergraduate researcher in computational biology. Experience in RNA-seq and amp
 * **Functional enrichment (pilot):** StringTie gene IDs mapped to TAIR loci; volcano plot and row Z-score heatmap; GO (BP, MF, CC) and KEGG enrichment with clusterProfiler. Compared with the 0% plastic control, roots in 5% plastic soil pre-incubated for 120 days had higher expression of genes for cell wall organisation, root hairs and phenylpropanoid biosynthesis, and lower expression of genes for starvation and hypoxia responses.
 * **Factorial experiment (27 libraries):** 0, 1 or 5% plastic × 0, 30 or 120 days of soil pre-incubation, three replicates. edgeR likelihood ratio tests for plastic, pre-incubation and interaction contrasts on a count matrix provided by the lab; PCA, PERMANOVA and two-way ANOVA on PC scores.
 * **Stack:** R (edgeR, clusterProfiler, vegan, ggplot2, pheatmap), Python, Bash, HISAT2, StringTie, samtools.
+
 **Prior work:** [Lee et al. (2025), *Journal of Experimental Botany* 76: 7003–7025](https://academic.oup.com/jxb/article/76/22/7003/8213809) describes this soil and plastic system and its effects on plant growth, the rhizosphere bacterial community and the leaf transcriptome.
 
 ### [microtom-rhizosphere-amplicon](https://github.com/HeechanKim-Lab/microtom-rhizosphere-amplicon)
