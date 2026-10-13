@@ -12,7 +12,7 @@ Undergraduate researcher in computational biology. Experience in RNA-seq and amp
 ## Research projects
 
 ### [arabidopsis-microplastic-rnaseq](https://github.com/HeechanKim-Lab/arabidopsis-microplastic-rnaseq)
-*RNA-seq of Arabidopsis thaliana roots grown in soil containing low-density polyethylene (LDPE) plastic residues.*
+*RNA-seq of Arabidopsis thaliana roots grown in soil containing low-density polyethylene (LDPE) mulching-film residues (≥ 5 mm), a source of microplastics in soil.*
 
 * **Upstream processing (six-library pilot):** paired-end alignment to the TAIR10 genome with HISAT2, coordinate sorting with samtools, and reference-guided assembly, merging and quantification with StringTie.
 * **Differential expression (pilot):** edgeR. One control library was an outlier in quality control: it had the lowest alignment rate and separated from the other five on PC1 (49% of variance; PC2, 18%). Quasi-likelihood F-tests found 1, 12 and 0 genes at FDR < 0.05 with six, five and four libraries. A likelihood ratio test on all six libraries gave 865 genes (FDR < 0.05, |log2FC| > 1), used as an exploratory list.
@@ -35,7 +35,7 @@ Undergraduate researcher in computational biology. Experience in RNA-seq and amp
 *Bench records of molecular biology and plant work, May–September 2026.*
 
 * **Amplicon libraries for genotyping:** three-step PCR (locus, nested and dual-index) on 15 *SlUPF3a* CRISPR knockout candidate lines of tomato cv. Micro-Tom; gel extraction and NanoDrop quality checks.
-* **qPCR:** 384-well SYBR Green plate with 24 F1 samples from the multi-generation soil experiment in technical triplicate; *UPF2* and *SRRM1-like*, with *Actin* as reference.
+* **qPCR:** expression of *UPF2* and *SRRM1-like* relative to *Actin* in cDNA from 24 F1 plants of the multi-generation soil experiment (384-well plate, SYBR Green, technical triplicate).
 * **Extraction:** total RNA (TRIzol, TURBO DNase, PCI clean-up) and protein from 64 tomato leaf samples ground in liquid nitrogen (TissueLyser); genomic DNA by CTAB with drill grinding, using a smaller initial buffer volume to limit splashing; plasmid pGEX-5X-1 from *E. coli* DH5α.
 * **Plant work:** Arabidopsis seed sterilization, stratification and sowing; a *Pseudomonas syringae* leaf-infiltration assay with bacterial counts (method test on untreated plants); 1/2 MS medium; GUS staining and tissue clearing (course practical).
 
