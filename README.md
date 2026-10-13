@@ -1,7 +1,7 @@
 # Heechan Kim
 **Undergraduate Researcher | Molecular Engineering & Computer Science, Dong-A University**
 
-Undergraduate researcher in computational biology. Experience in RNA-seq and amplicon sequencing (16S rRNA, ITS2) analysis with scripted workflows and dated analysis logs, molecular bench work (nucleic acid extraction, qPCR, amplicon library PCR), and deep learning (test-time adaptation without backpropagation).
+Undergraduate researcher in computational biology. Experience in RNA-seq and amplicon sequencing (16S rRNA, ITS2) analysis with scripted workflows and dated analysis logs, and molecular bench work (nucleic acid extraction, qPCR, amplicon library PCR).
 
 * **Email:** 2218160@donga.ac.kr
 * **Location:** Busan, South Korea
